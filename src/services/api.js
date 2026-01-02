@@ -1,7 +1,7 @@
 import axios from "axios"
 import { toast } from "../utils/toast"
 
-const BASE = import.meta.env.VITE_SERVER_URL || "http://localhost:5000"
+const BASE = import.meta.env.VITE_SERVER_URL || "https://minorproject-f357e7db5e1f.herokuapp.com/"
 
 const api = axios.create({ baseURL: BASE + "/api" })
 
